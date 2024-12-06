@@ -1,35 +1,24 @@
 /*
-Given a positive integer n, The task is to find the value of Σi from 1 to n F(i) where function F(i) for the number i is defined as the sum of all divisors of i.
+Given a natural number n, print all distinct divisors of it.
 
 Examples:
 
-Input: n = 4
-Output: 15
-Explanation:
-F(1) = 1
-F(2) = 1 + 2 = 3
-F(3) = 1 + 3 = 4
-F(4) = 1 + 2 + 4 = 7
-So, F(1) + F(2) + F(3) + F(4)
-    = 1 + 3 + 4 + 7 = 15
-Input: n = 5
-Output: 21
-Explanation:
-F(1) = 1
-F(2) = 1 + 2 = 3
-F(3) = 1 + 3 = 4
-F(4) = 1 + 2 + 4 = 7
-F(5) = 1 + 5 = 6
-So,  F(1) + F(2) + F(3) + F(4) + F(5)
-    = 1 + 3 + 4 + 7 + 6 = 21
-Input: n = 1
-Output: 1
-Explanation:
-F(1) = 1
-So,  F(1) = 1
-Constraints:
-        1 <= n <= 105
+Input: n = 10
+Output: 1 2 5 10
+Explanation: 1, 2, 5 and 10 are the factors of 10.
 
+
+Input: n = 100
+Output: 1 2 4 5 10 20 25 50 100
+Explanation: 1, 2, 4, 5, 10, 20, 25, 50 and 100 are factors of 100.
+
+
+Input: n = 125
+Output: 1 5 25 125
+
+
+Time Complexity: O(sqrt(n)), where n is the input number.
+Auxiliary Space: O(1)
 
 */
 
