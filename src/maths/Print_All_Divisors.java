@@ -26,6 +26,7 @@ Auxiliary Space: O(1)
 package maths;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Print_All_Divisors {
 
@@ -51,6 +52,7 @@ public class Print_All_Divisors {
         }
 
 
+        Collections.sort(list);
 
         return list;
 
