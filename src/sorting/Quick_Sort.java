@@ -24,7 +24,7 @@ Best, Average, Worst Case:  𝑂 ( 𝑛 log ⁡ 𝑛 ) O(nlogn)
 The array is divided recursively into halves ( log ⁡ 𝑛 logn) and merged linearly ( 𝑂 ( 𝑛 ) O(n)).
 
 Space Complexity
-𝑂 ( 𝑛 ) O(n) due to the temporary storage for merging.
+𝑂 ( 1 ) O(1) due to the temporary storage for merging.
 
 
  */
